@@ -13,7 +13,13 @@
 
 int radius, area;
 
-int main(void) {
+int main(void)
+
+{
+
+	setbuf(stdin, NULL);
+	setbuf(stdout, NULL);
+
 
 	printf("Enter radius(i.e. 10):");
 	fflush(stdout);
